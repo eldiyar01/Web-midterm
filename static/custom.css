@@ -1,0 +1,42 @@
+.c-bg-dark{
+    background-color:#0d1117;
+}
+
+.c-bg-dark2{
+    background-color:#161b22;
+}
+
+@font-face {
+    font-family: 'ISOCT';
+    src: url('./ISOCT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.isoct {
+    font-family: 'ISOCT';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.c-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fs-l {
+    font-size: 4.5rem;
+}
+
+.mb-15 {
+    margin-bottom: 15rem;
+}
